@@ -1,0 +1,99 @@
+
+.top-menu{
+    margin: auto;
+    background-color: grey;
+    box-shadow: 0px 0px 6px rgba(12, 1, 1, 0.904);
+    padding: 15px 5px 15px 5px;
+}
+ .bt1, .img2{
+    border-radius: 50%;
+    margin: auto;
+    display:block ;
+    border: 2px solid black;
+
+}
+
+.menubar{
+list-style: none;
+
+}
+.menubar li{
+    display: inline-block;
+    padding: 20px 50px;
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.menubar li:hover{
+        background-color: darkslategrey;
+        color: white;
+        
+}
+
+.ii{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    display: block;
+    opacity:1;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+.Tanmoy{
+    background-color:rgb(12, 49, 90);
+    padding: 10px 0 20px 0;
+}
+.ii:hover{
+    transform: scale(2);
+}
+
+.Tanmoy p{
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  color: white;
+}
+.Tanmoy marquee{
+    color: white;
+    font-size: 20px;
+}
+.ft{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+.ft a img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 4px solid red;
+    border-radius: 50%;
+    margin: 50px;
+   
+}
+
+
+.education{
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px 10px;
+}
+.education table tr td{
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 0 0 5px white;
+}
+.education table{
+    margin: auto;
+    border: 3px solid black;
+}
+.education table thead th{
+    border: 2px solid black;
+    padding: 7px;
+    box-shadow: 0 0 5px white;
+}
+.education p{
+     text-align: center;
+}
